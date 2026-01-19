@@ -1,0 +1,43 @@
+# -----------------------------
+# Core Backend Framework
+# -----------------------------
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# -----------------------------
+# DICOM & Medical Imaging
+# -----------------------------
+pydicom==2.4.4
+numpy==1.26.4
+scipy==1.11.4
+pylibjpeg>=2.0
+pylibjpeg-libjpeg>=2.1
+pylibjpeg-openjpeg
+
+# -----------------------------
+# Image Processing
+# -----------------------------
+opencv-python==4.9.0.80
+Pillow==10.2.0
+
+# -----------------------------
+# Data Validation
+# -----------------------------
+pydantic==2.6.4
+
+# -----------------------------
+# Utilities
+# -----------------------------
+python-multipart==0.0.9
+tqdm==4.66.2
+
+# -----------------------------
+# 3D Mesh Generation (STL)
+# -----------------------------
+SimpleITK==2.3.1     # for DICOM reading and processing
+vtk==9.3.0           # for 3D mesh generation and STL export
+
+# -----------------------------
+# Optional (for future extensions)
+# -----------------------------
+# cachetools==5.3.2    # for LRU caching (later)
